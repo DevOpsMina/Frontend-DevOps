@@ -31,7 +31,7 @@ jobs:
 
       - name: Tag Docker image
         run: |
-          sudo docker tag mongo-frontend:latest 654654282708.dkr.ecr.ap-southeast-1.amazonaws.com/mngo-frontend:latest
+          sudo docker tag mongo-frontend:latest 654654282708.dkr.ecr.ap-southeast-1.amazonaws.com/mongo-frontend:latest
 
       - name: Push Docker image to Amazon ECR
         run: |
